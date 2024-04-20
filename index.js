@@ -2,7 +2,7 @@ const { execSync } = require("child_process");
 const fs = require("fs");
 
 // Number of days to go back
-const totalDays = 142;
+const totalDays = 300;
 const commitsPerDay = 3;
 const commitMessages = [
   "Fixed a bug",
